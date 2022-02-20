@@ -134,6 +134,7 @@
 ### questions
 
 ### API
+  - [Download API](https://github.com/ammarmc/RevEnchants/raw/main/RevEnchantsApi.jar)
   - long getCurrency(OfflinePlayer p, String CurrencyID)
   - depositCurrency(OfflinePlayer p, long Amount,String CurrencyID, CurrencyReceiveReason Reason)
   - withdrawCurrency(OfflinePlayer p, long Amount,String CurrencyID)
@@ -146,10 +147,7 @@
       get players Currency Amount the have
 
 
-
-
-
-
+ 
 
 
 
