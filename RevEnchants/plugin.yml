@@ -1,0 +1,42 @@
+name: RevEnchants
+main: me.revils.revenchants.Main
+version: 10.2
+description: Custom Enchants plugin
+author: RevilsTeam
+depend: [WorldGuard]
+softdepend:
+  - PlaceholderAPI
+  - MVdWPlaceholderAPI
+  - Vault
+  - RevAutoSell
+  - AutoSell
+  - Mines
+  - EZBlocks
+  - PrisonMines
+  - JetsPrisonMines
+loadbefore:
+  - WorldGuard
+  - RevAutoMine
+  - RevAutoMiner
+  - RevRefunder
+commands:
+  Extract:
+    aliases: [extractenergy]
+  RevEnchanter:
+    aliases: [revce]
+  RevEnchants:
+    aliases: [revenchant, re]
+  Jackhammer :
+    aliases: [jh, revjackhammer]
+  Explosive  :
+    aliases: [ex, revexplosive]
+  RevMomentum:
+    aliases: [momentum, mom]
+  RevAutolevelup:
+    aliases: [autolevelup]
+  RevLevelup:
+    aliases: [levelup, lu]
+  RevAutoRepair:
+    aliases: [AutoRepair, ar]
+  RevRepair:
+    aliases: [Repair, rr]
