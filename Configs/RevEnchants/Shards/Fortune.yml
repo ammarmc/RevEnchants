@@ -1,0 +1,19 @@
+Settings:
+  Enabled: true
+  Name: '&cFortune'
+  MaxLevel: 5
+  MaxStack: 100
+  Requirement:
+    Enabled: false
+    Number: 10
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Increase your pickaxe Fortune'
+  Shard:
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_SHARD
+    Glow: true
+    Name: '&cFortune + %Level%'
+    Lore:
+    - '&1Unique Shard '
+    - '&7Increase your pickaxe Fortune by %Level%'

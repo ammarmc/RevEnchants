@@ -1,0 +1,20 @@
+Settings:
+  Enabled: true
+  Name: '&cUnbreaking'
+  MaxLevel: 10
+  MaxStack: 100
+  Requirement:
+    Enabled: false
+    Number: 10
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Increase your pickaxe Unbreaking'
+  Shard:
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_SHARD
+    Glow: true
+    Name: '&cUnbreaking + %Level%'
+    Lore:
+    - '&1Unique Shard '
+    - '&7Increase your pickaxe Durability by %Level%'
+    - '&7Stack up to %MaxStack%'

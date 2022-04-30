@@ -1,0 +1,19 @@
+Settings:
+  Enabled: true
+  Name: '&cNightVision'
+  MaxLevel: 1
+  MaxStack: 1
+  Requirement:
+    Enabled: false
+    Number: 10
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Gives you Night Vision effect'
+  Shard:
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_SHARD
+    Glow: true
+    Name: '&cNightVision + %Level%'
+    Lore:
+    - '&1Unique Shard  '
+    - '&7Increase your pickaxe cHaste level by %Level%'

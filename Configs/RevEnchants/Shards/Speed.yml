@@ -1,0 +1,19 @@
+Settings:
+  Enabled: true
+  Name: '&cSpeed'
+  MaxLevel: 2
+  MaxStack: 6
+  Requirement:
+    Enabled: false
+    Number: 10
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Increase your waking Speed'
+  Shard:
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_SHARD
+    Glow: true
+    Name: '&cSpeed + %Level%'
+    Lore:
+    - '&1Unique Shard  '
+    - '&7Increase your pickaxe Speed level by %Level%'

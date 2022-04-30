@@ -1,0 +1,20 @@
+Settings:
+  Enabled: true
+  Name: '&cEnergyCollector'
+  MaxLevel: 2
+  MaxStack: 10
+  Real: true
+  Requirement:
+    Enabled: false
+    Number: 10
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Increase your pickaxe Efficiency'
+  Shard:
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_SHARD
+    Glow: true
+    Name: '&cEnergyCollector + %Level%'
+    Lore:
+    - '&1Unique Shard RequiredLevel %RequiredLevel%'
+    - '&7Increase your pickaxe EnergyCollector level by %Level%'
