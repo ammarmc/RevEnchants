@@ -1,0 +1,52 @@
+# [ , 
+# what is LastTimeEnergySeconds ,  
+# its placeholder for each player to see ,  
+# how much did they collected Energy is the las 60 Seconds, 
+#  you can change the time to a different value, 
+#  example make it every 10 minutes set to 600 Seconds, 
+# %RevEnchants_LastTime_Energy%, 
+# %RevEnchants_LastTime_Energy_FormattedA%, 
+# %RevEnchants_LastTime_Energy_FormattedB%]
+Settings:
+  Start: 100
+  Increase: 10
+  Percentage: true
+  Mining:
+    Enabled: true
+    Chance: 100
+    Max: 10
+    Min: 5
+    MultiBreak: true
+  EnergyItem:
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 12
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          LOOT_BONUS_BLOCKS: 1
+    Name: '&f&l%Amount% &b&lRaw Energy'
+    Glow: true
+    Lore:
+    - ' '
+    - '&6Contains %Amount_Formatted% &b&lEnergy'
+    - '&6 that is used to level up your pickaxe'
+    - ' '
+    - '&7Hint: Drag and drop onto a pickaxe to add'
+    - '&7to its energy +%Amount_Formatted2%!'
+    - ' '
+    - '&6Extracted by &f%Player%'
+  Progress:
+    Lore:
+      Amount: 50
+      Full: '&a'
+      Empty: '&c'
+      Icon: ▏
+    Score:
+      Amount: 10
+      Full: '&a'
+      Empty: '&c'
+      Icon: █
+  LastTimeEnergySeconds: 60

@@ -1,0 +1,77 @@
+# [
+#  if you change the ID the Currency data will reset, 
+#  to create new Currency just copy Currency Option 1 or 2, 
+#  --------------------------------------------------, 
+#  I don't recommend this option, 
+#  to add Currency from Other plugin like TokenManager, 
+#  copy Currency Option 3 , 
+#  --------------------------------------------------, 
+#  Note : you can't  Shared commands or id  Between Currencies, 
+#  Note : commands must be small letters, 
+#  --------------------------------------------------, 
+#  Use the id of the Currency in other configuration , 
+#  like what Currency to purchase Enchant with, 
+#  to give Currency from mining setup in Config , 
+#  and other Enchants that gives Currency, 
+#  Permission  RevEnchants.Withdraw.CurrencyID, 
+# Rev-Enchants-Core Made by Revils Team]
+LastTimeCurrencySeconds: 60
+Currency:
+  Vault:
+    Name: '&cdollar'
+    Symbol: '&c$'
+  '1':
+    ID: RevToken
+    Name: '&cToken'
+    Symbol: '&c❂'
+    Item:
+      Name: '&cTokens %Amount%'
+      type:
+        ==: org.bukkit.inventory.ItemStack
+        type: MAGMA_CREAM
+      Lore:
+      - ' '
+      - '&7Hint: right click while holding %Amount%'
+      Glow: true
+    Withdraw: true
+    Commands:
+    - tokens
+    - token
+    - tn
+  '2':
+    ID: RevGems
+    Name: '&cGems'
+    Symbol: '&c✿'
+    Item:
+      Name: '&cGems %Amount%'
+      type:
+        ==: org.bukkit.inventory.ItemStack
+        type: DOUBLE_PLANT
+      Lore:
+      - ' '
+      - '&7Hint: right click while holding %Amount%'
+      Glow: true
+    Withdraw: true
+    Commands:
+    - coin
+    - cn
+  '3':
+    ID: TokenManager
+    Placeholder: '%tm_tokens%'
+    SetCommand: TokenManager set %Player% %Amount%
+    Name: '&cToken'
+    Symbol: '&cTM'
+    Item:
+      Name: '&cTokenManager %Amount%'
+      type:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+      Lore:
+      - '&6Extracted by &f%Player%'
+      - ' '
+      - '&7Hint: right click while holding %Amount%'
+      Glow: true
+    Withdraw: true
+    Commands:
+    - ttoken
+    - ttm

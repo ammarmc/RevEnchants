@@ -1,0 +1,114 @@
+Settings:
+  Enabled: true
+  Title: '&cRevColours'
+  Rows: 6
+  Empty-slots:
+    Enabled: true
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STAINED_GLASS_PANE
+  Enchant:
+    slot: 4
+    Lore:
+    - ' '
+    - '&1Click here to select different Enchant'
+  Slots:
+    '1':
+      Name: '&0Colour'
+      Lore:
+      - ' '
+      - '&1Click here to select colour'
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOL
+        damage: 15
+      Slot: 18
+      Colour: '&0'
+    '2':
+      Name: '&1Colour'
+      Lore:
+      - ' '
+      - '&1Click here to select colour'
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOL
+        damage: 11
+      Slot: 19
+      Colour: '&1'
+    '3':
+      Name: '&2Colour'
+      Lore:
+      - ' '
+      - '&1Click here to select colour'
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOL
+        damage: 13
+      Slot: 20
+      Colour: '&2'
+    '4':
+      Name: '&3Colour'
+      Lore:
+      - ' '
+      - '&1Click here to select colour'
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOL
+        damage: 3
+      Slot: 21
+      Colour: '&3'
+    '5':
+      Name: '&4Colour'
+      Lore:
+      - ' '
+      - '&1Click here to select colour'
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOL
+        damage: 14
+      Slot: 22
+      Colour: '&4'
+    '6':
+      Name: '&5Colour'
+      Lore:
+      - ' '
+      - '&1Click here to select colour'
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOL
+        damage: 2
+      Slot: 23
+      Colour: '&5'
+    '7':
+      Name: '&6Colour'
+      Lore:
+      - ' '
+      - '&1Click here to select colour'
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOL
+        damage: 1
+      Slot: 24
+      Colour: '&6'
+    '8':
+      Name: '&7Colour'
+      Lore:
+      - ' '
+      - '&1Click here to select colour'
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOL
+        damage: 7
+      Slot: 25
+      Colour: '&7'
+    '9':
+      Name: '&8Colour'
+      Lore:
+      - ' '
+      - '&1Click here to select colour'
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOL
+        damage: 15
+      Slot: 26
+      Colour: '&8'

@@ -1,0 +1,14 @@
+# [
+#  , 
+# to get the name of the blocks use , 
+# /re infoLuckyBlock, 
+#  and right-click the block to get the name that use in here]
+Settings:
+  Enabled: true
+Blocks:
+  '1':
+    Block: sponge
+    Commands:
+    - give %Player% core 1
+    - give %Player% core 2
+    - give %Player% core 3

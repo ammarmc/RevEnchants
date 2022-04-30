@@ -1,0 +1,29 @@
+Settings:
+  Enabled: true
+  InGui: true
+  Name: Momentum
+  Colour: '&7'
+  MultiBreak: true
+  MultiBreakMaxSuccess: 1000
+  Slot: 39
+  MaxLevel: 10
+  Currency: RevToken
+  Cost: 1000
+  Increase-Cost-by: 1000
+  Chance: 5
+  Increase-Chance-by: 1
+  Momentum:
+    Need: 1000
+    Add: 1
+    Seconds: 5
+    ResetOnPlayerQuit: true
+    DoubleEnergy: true
+    DoubleCurrency: RevToken/Vault/RevCoin
+  Requirement:
+    Enabled: false
+    Number: 5
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Get double Energy and Tokens when Momentum reaches 100%'
+  Book:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK

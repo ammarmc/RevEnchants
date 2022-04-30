@@ -1,0 +1,29 @@
+Settings:
+  Enabled: true
+  InGui: true
+  Name: CoinDiscover
+  Colour: '&7'
+  Slot: 32
+  MaxLevel: 1000
+  Max: 10
+  Min: 1
+  MultiBreak: true
+  MultiBreakMaxSuccess: 1000
+  GiveCurrency: RevCoin
+  Currency: RevToken
+  Cost: 1000
+  Increase-Cost-by: 1000
+  Chance: 3
+  Increase-Chance-by: 0.01
+  Requirement:
+    Enabled: false
+    Number: 5
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Chance to get more Tokens as you mine the chance depend on the level'
+  Book:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK
+  Message:
+    Enabled: false
+    Bar: true
+    Format: '&7CoinDiscover %Amount_FormattedA%'

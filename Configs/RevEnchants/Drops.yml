@@ -1,0 +1,31 @@
+# [Settings.Enabled if you enable this RevEnchants will handle the blocks drops, 
+#   Settings.FixDrops it will make block drop just one item , 
+#  the Change option, 
+#  its to change the drop like coal ore drop coal ore not coal ]
+Settings:
+  Enabled: true
+  FixDrops: true
+  Change:
+    Enabled: false
+    '1':
+      From:
+        ==: org.bukkit.inventory.ItemStack
+        type: COAL
+      To:
+        ==: org.bukkit.inventory.ItemStack
+        type: COAL_ORE
+    '2':
+      From:
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE
+      To:
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_ORE
+    '3':
+      From:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 4
+      To:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAPIS_ORE

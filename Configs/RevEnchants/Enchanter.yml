@@ -1,0 +1,100 @@
+Settings:
+  Title: '&cRevEnchanter'
+  Rows: 6
+  Open:
+    Right-click: true
+    isSneaking: false
+  Click:
+    Left-Click: 1
+    Right-Click: 10
+    Middle-Click: 100
+    Shift-Left-Click: 120
+    Shift-Right-Click: 150
+  Tool:
+    Enabled: true
+    Slot: 4
+  Empty-slots:
+    Enabled: true
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STAINED_GLASS_PANE
+  LevelUp:
+    Enabled: true
+    Slot: 3
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 12
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          LOOT_BONUS_BLOCKS: 1
+    Name: '&c&lLevel up'
+    Lore:
+    - ' '
+    - '&bClick here if you have full Energy to level up your pickaxe'
+    - '&bThere is a chance to receive +Enchant/shard slot'
+  Shard:
+    Enabled: true
+    Slot: 8
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_SHARD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          LOOT_BONUS_BLOCKS: 1
+    Name: '&c&lShards'
+    Lore:
+    - ' '
+    - '&bClick here to open shard menu'
+  Colours:
+    Enabled: true
+    Slot: 5
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          LOOT_BONUS_BLOCKS: 1
+    Name: '&c&lColours'
+    Lore:
+    - ' '
+    - '&bClick here to change enchants colours'
+  Repair:
+    Enabled: true
+    Slot: 0
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          LOOT_BONUS_BLOCKS: 1
+    Name: '&c&lRepair'
+    Lore:
+    - ' '
+    - '&bClick here to Repair your tool'
+  Enchants:
+    IfNotAtRequiredLevelItem:
+      Enabled: true
+      Item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BARRIER
+    GlowIfMax: true
+    Name: '%Colour%%Name%'
+    Lore:
+    - ' '
+    - '&bCURRENT LEVEL: &e%Current_Level%'
+    - '&bCOST: &a%Cost% &7/ &f%Currency_Player%  %Currency_Name% %Currency_Symbol%'
+    - '&bMAXLVL: &a%Max_Level%'
+    - ' '
+    - '&CDescription'
+    - '&7%Description%'

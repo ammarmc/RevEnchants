@@ -1,0 +1,47 @@
+# [Transfuse called before AutoSmelter]
+Settings:
+  Enabled: true
+  InGui: true
+  Name: AutoSmelter
+  Colour: '&7'
+  Slot: 42
+  MaxLevel: 10
+  Currency: RevToken
+  Cost: 1000
+  Increase-Cost-by: 1000
+  Chance: 10
+  Increase-Chance-by: 9
+  Requirement:
+    Enabled: false
+    Number: 5
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7chance to Smelt ores you mine'
+  Book:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK
+  Items:
+    '1':
+      From:
+        ==: org.bukkit.inventory.ItemStack
+        type: COBBLESTONE
+      To:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+    '2':
+      From:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_ORE
+      To:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+    '3':
+      From:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_ORE
+      To:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+  Message:
+    Enabled: false
+    Bar: true
+    Format: '&7AutoSmelter'

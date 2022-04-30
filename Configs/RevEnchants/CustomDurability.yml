@@ -1,0 +1,20 @@
+Settings:
+  Enabled: true
+  AutoRepairDefault: false
+  Start: 1000
+  Increase-by-level: 1000
+  Currency: Vault
+  Repair:
+    Cost: 1000
+    IncreaseCost-by-level: 100
+  Progress:
+    Lore:
+      Amount: 50
+      Full: '&a'
+      Empty: '&c'
+      Icon: ▏
+    Score:
+      Amount: 10
+      Full: '&a'
+      Empty: '&c'
+      Icon: █

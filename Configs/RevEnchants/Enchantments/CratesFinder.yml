@@ -1,0 +1,31 @@
+Settings:
+  Enabled: true
+  InGui: true
+  Name: CratesFinder
+  Colour: '&7'
+  Slot: 37
+  MaxLevel: 1000
+  MultiBreak: true
+  MultiBreakMaxSuccess: 1000
+  Commands:
+  - give %Player% core 1
+  - give %Player% core 2
+  - give %Player% core 3
+  Currency: RevToken
+  Cost: 10000
+  Increase-Cost-by: 1000
+  Chance: 1
+  Increase-Chance-by: 0.01
+  Requirement:
+    Enabled: false
+    Number: 5
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Chance to get Random crates key%nl%&7as you mine the chance depend
+    on the level'
+  Book:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK
+  Message:
+    Enabled: false
+    Bar: true
+    Format: '&7CratesFinder %Amount_FormattedA%'

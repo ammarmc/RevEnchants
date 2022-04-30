@@ -1,0 +1,28 @@
+Settings:
+  Enabled: true
+  InGui: true
+  Name: Fortune
+  Colour: '&7'
+  Slot: 16
+  MaxLevel: 100
+  Multiply:
+    MultiplyByLevel: true
+    Max: 10
+    Min: 1
+  Currency: RevToken
+  Cost: 1000
+  Increase-Cost-by: 1000
+  Chance: 100
+  Increase-Chance-by: 0.1
+  Requirement:
+    Enabled: false
+    Number: 5
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Increase your pickaxe Fortune'
+  Book:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK
+  Message:
+    Enabled: true
+    Bar: true
+    Format: '&7Fortune %Amount_FormattedA% * Blocks'

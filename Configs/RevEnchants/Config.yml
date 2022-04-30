@@ -1,0 +1,36 @@
+# [
+#  , 
+# Rev-Enchants-Core Made by Revils Team, 
+# PerformanceOverQuality ?, 
+# for big servers as nbt request cost server performance, 
+# this will store enchant level in memory for faster request, 
+# which improve performance by 100 times, 
+# require server restart to apply ]
+Settings:
+  DebugMode: false
+  SaveTime: 500
+  PerformanceOverQuality:
+    Enabled: false
+    EverySeconds: 5
+  Check_if_event_is_cancelled: true
+  Events:
+    ChanceRequest: true
+    JackHammer: true
+  Mining:
+    Currency:
+      '1':
+        Enabled: true
+        ID: RevToken
+        MultiBreak: true
+        MultiBreakMaxSuccess: 100000
+        Chance: 100
+        Min: 1
+        Max: 1
+      '2':
+        Enabled: true
+        ID: RevCoin
+        MultiBreak: true
+        MultiBreakMaxSuccess: 1000
+        Chance: 50
+        Min: 5
+        Max: 10

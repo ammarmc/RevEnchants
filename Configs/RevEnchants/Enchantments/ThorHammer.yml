@@ -1,0 +1,38 @@
+# [
+#  the plugin is not responsible for your options Minecraft has limitation, 
+#  recommended  MaxLightningStrike 4, 
+#  recommended  Radius 1 to 2]
+Settings:
+  Enabled: true
+  InGui: true
+  Name: ThorHammer
+  Colour: '&7'
+  Slot: 46
+  MaxLevel: 10
+  MaxLightningStrike: 10
+  MinLightningStrike: 9
+  Radius: 6
+  Currency: RevToken
+  Cost: 1000
+  Increase-Cost-by: 1000
+  Chance: 100
+  Increase-Chance-by: 0.1
+  Requirement:
+    Enabled: false
+    Number: 5
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Lightning:
+    Enabled: true
+  Sound:
+    Enabled: true
+    ID: ENTITY_LIGHTNING_BOLT_THUNDER
+    Volume: 1
+    Pitch: 1
+  Description: '&7struck the mine with lighting'
+  Book:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK
+  Message:
+    Enabled: true
+    Bar: true
+    Format: '&7ThorHammer %Amount_FormattedA% Blocks'

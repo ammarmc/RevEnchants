@@ -1,0 +1,21 @@
+Settings:
+  Enabled: true
+  InGui: true
+  Name: Haste
+  Colour: '&7'
+  Slot: 19
+  MaxLevel: 5
+  Currency: RevToken
+  Cost: 10000
+  Increase-Cost-by: 1000
+  Requirement:
+    Enabled: false
+    Number: 5
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7gives you Haste effect'
+  Book:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK
+  WorldsBlockList:
+  - pvp
+  - pvp2

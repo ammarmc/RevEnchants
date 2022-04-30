@@ -1,0 +1,22 @@
+Settings:
+  Enabled: true
+  InGui: true
+  Name: Fly
+  Colour: '&7'
+  Slot: 15
+  MaxLevel: 5
+  Increase-fly-speed-by: 0.1
+  Currency: RevToken
+  Cost: 100000
+  Increase-Cost-by: 50000
+  Requirement:
+    Enabled: false
+    Number: 5
+    Placeholder: '%RevEnchants_Tool_Flag_Level%'
+  Description: '&7Give you ability to fly'
+  Book:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK
+  WorldsBlockList:
+  - pvp
+  - pvp2

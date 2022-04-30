@@ -1,0 +1,13 @@
+Settings:
+  Enabled: true
+  Start: 2
+  Max: 9
+  Slots:
+    Name: '&c+ Enchant Slot'
+    Glow: true
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STAR
+    Lore:
+    - ' '
+    - '&1drag and drop to add new slot'
